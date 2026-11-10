@@ -26,7 +26,7 @@ cd apps/tuya_cloud/switch_demo
 执行 `tos.py config choice` 配置项目。该命令会列出已验证的配置选项，请选择与你硬件匹配的一项。
 
 ```bash
-❯ tos.py config choice
+tos.py config choice
 [INFO]: Running tos.py ...
 [INFO]: Fullclean success.
 --------------------
@@ -52,7 +52,7 @@ Choice config file:
 使用 `tos.py build` 编译项目。
 
 ```bash
-❯ tos.py build
+tos.py build
 ...
 [INFO]: ******************************
 [INFO]: /xxx/TuyaOpen/apps/tuya_cloud/switch_demo/.build/bin/switch_demo_QIO_1.0.0.bin
@@ -69,7 +69,7 @@ Choice config file:
 清理编译缓存，使用 `tos.py clean` 进行常规清理，或 `tos.py clean -f` 进行强制深度清理。
 
 ```bash
-❯ tos.py clean -f
+tos.py clean -f
 [INFO]: Running tos.py ...
 [INFO]: Fullclean success.
 ```
